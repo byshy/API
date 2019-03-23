@@ -5,7 +5,7 @@ const app = express();
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res){
-  const data = [{name: "basil", age:"19"}, {name:"mohammed", age:"21"}];
+  const data = {name: "basil", age:"19"};
   res.setHeader("Access-Control-Allow-Origin", "*")
   res.send(data);
 })
