@@ -6,17 +6,20 @@ app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res){
   const data = {
-  "120160513": {
+   {
+    "stdno": "120160513":
     "name": "Basel N. ABuhadrous",
     "lvl": 3,
     "major": "Comp. Sci."
   },
-  "120160000": {
+  {
+    "stdno": 120160000
     "name": "Mohammed Mortaga",
     "lvl": 3,
     "major": "Comp. Sci."
   },
-  "120160555": {
+  {
+    "stdno": 120160555
     "name": "Someone something",
     "lvl": 3,
     "major": "Comp. Sci."
