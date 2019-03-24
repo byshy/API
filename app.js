@@ -7,7 +7,7 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function(req, res){
   const data = {
    {
-    "stdno": "120160513":
+    "stdno": 120160513
     "name": "Basel N. ABuhadrous",
     "lvl": 3,
     "major": "Comp. Sci."
