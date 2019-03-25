@@ -5,8 +5,7 @@ const app = express();
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res){
-  const data = [
-  {
+  const data ={
     "agenda": {
       "regs": "xx-xx-xxxx",
       "rege": "xx-xx-xxxx",
@@ -318,8 +317,7 @@ app.get('/', function(req, res){
         }
       ]
     }
-  }
-];
+  };
   
   res.setHeader("Access-Control-Allow-Origin", "*")
   res.send(data);
