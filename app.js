@@ -60,14 +60,6 @@ app.get('/', function(req, res){
         "dest": "dest4"
       }
     ],
-    "urls": [
-      "url1",
-      "url2",
-      "url3",
-      "url4",
-      "url5",
-      "url6"
-    ],
     "management": "empty",
     "std_info": {
       "id_no": "xxxyyyzzz",
