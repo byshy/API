@@ -19,13 +19,13 @@ app.get('/', function(req, res){
     },
     "academical_data": {
       "college": "Engineering",
-      "gpa": 80.2
+      "gpa": 80.2,
       "specialty": "Comp. Sci.",
       "lvl": 3,
       "plan_no": 4,
-      "success_hrs": 89
-      "study_hrs": 89
-      "remaining_hrs": 58
+      "success_hrs": 89,
+      "study_hrs": 89,
+      "remaining_hrs": 58,
       "balance": 200.5
     },
     "installments": [
@@ -62,7 +62,7 @@ app.get('/', function(req, res){
     ],
     "management": "empty",
     "std_info": {
-      "id_no": 120160513
+      "id_no": 120160513,
       "dob": "xx-yy-zzzz",
       "pob": "somewhere",
       "name_eng": "Basel N. M. Abuhadrous",
