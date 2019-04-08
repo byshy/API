@@ -31,14 +31,14 @@ app.get('/', function(req, res){
     "installments": [
       {
         "due_date": "xx-xx-xxxx",
-        "amount": "xx",
-        "payed": "xx",
+        "amount": 100,
+        "payed": 90,
         "remaining": "xx"
       },
       {
         "due_date": "yy-yy-yyyy",
-        "amount": "yy",
-        "payed": "yy",
+        "amount": 80,
+        "payed": 40,
         "remaining": "yy"
       }
     ],
