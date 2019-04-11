@@ -42,7 +42,24 @@ app.get('/', function(req, res){
         "remaining": "yy"
       }
     ],
-    "ads": [],
+    "ads": [
+      {
+        "address": "ad1",
+        "dest": "dest1"
+      },
+      {
+        "address": "ad2",
+        "dest": "dest2"
+      },
+      {
+        "address": "ad3",
+        "dest": "dest3"
+      },
+      {
+        "address": "ad4",
+        "dest": "dest4"
+      }
+    ],
     "management": "empty",
     "std_info": {
       "id_no": 120160513,
