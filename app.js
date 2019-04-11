@@ -74,128 +74,128 @@ app.get('/', function(req, res){
       {
         "year": "2016/2017",
         "semister": 1,
-        "gpa": "xx.yy",
-        "cgpa": "yy.zz",
+        "gpa": 50.0,
+        "cgpa": 50.0,
         "subjects": [
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           }
         ]
       },
       {
         "year": "2016/2017",
         "semister": 2,
-        "gpa": "xx.yy",
-        "cgpa": "yy.zz",
+        "gpa": 50.0,
+        "cgpa": 50.0,
         "subjects": [
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           },
           {
             "name": "sub1",
             "code": "cs101",
-            "mid": "xx",
-            "final": "yy",
-            "credits": "credits amount"
+            "mid": 50,
+            "final": 50,
+            "credits": 3
           }
         ]
       }
