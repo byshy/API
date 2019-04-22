@@ -366,6 +366,344 @@ app.get('/installments', function(req, res){
   res.send(data);
 })
 
+app.get('/ads', function(req, res){
+  const data =[
+
+{
+"address": "ad1",
+"dest": "dest1"
+},
+
+{
+"address": "ad2",
+"dest": "dest2"
+},
+
+{
+"address": "ad3",
+"dest": "dest3"
+},
+
+{
+"address": "ad4",
+"dest": "dest4"
+}
+];
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/management', function(req, res){
+  const data = {};
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/std_info', function(req, res){
+  const data = {
+  "id_no": 120160513,
+"dob": "xx-yy-zzzz",
+"pob": "somewhere",
+"name_eng": "Basel N. M. Abuhadrous",
+"name_ara": "باسل نضال محمد ايوب ابو هدروس",
+"address": "somewhere else"
+  };
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/study_plan', function(req, res){
+  const data = {"url": "url to the study plan"};
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/marks', function(req, res){
+  const data = [
+{
+  "year": "2016/2017",
+  "semister": 1,
+  "gpa": 50,
+  "cgpa": 50,
+  "subjects": [
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    }
+  ]
+},
+{
+  "year": "2016/2017",
+  "semister": 2,
+  "gpa": 50,
+  "cgpa": 50,
+  "subjects": [
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    { 
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    },
+    {
+      "name": "sub1",
+      "code": "cs101",
+      "mid": 50,
+      "final": 50,
+      "credits": 3
+    }
+  ]
+}
+];
+  
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/exams', function(req, res){
+  const data = {
+    "mid": [
+      {
+        "subject": "sub1",
+        "date:": "xx-yy-zzzz",
+        "time": "aa:bb - xx-yy"
+      },
+      {
+        "subject": "sub2",
+        "date:": "xx-yy-zzzz",
+        "time": "aa:bb - xx-yy"
+      },
+      {
+        "subject": "sub3",
+        "date:": "xx-yy-zzzz",
+        "time": "aa:bb - xx-yy"
+      }
+    ],
+    "final": [
+      {
+        "subject": "sub1",
+        "date:": "xx-yy-zzzz",
+        "time": "aa:bb - xx-yy"
+      },
+      {
+        "subject": "sub2",
+        "date:": "xx-yy-zzzz",
+        "time": "aa:bb - xx-yy"
+      },
+      {
+        "subject": "sub3",
+        "date:": "xx-yy-zzzz",
+        "time": "aa:bb - xx-yy"
+      }
+    ]
+  };
+  
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/financial_record', function(req, res){
+  const data = {};
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/schedual', function(req, res){
+  const data = {
+  "sat": 
+
+[
+
+{
+"subject": "sub1",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub2",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub3",
+"time": "aa:bb - xx-yy"
+}
+],
+"sun": 
+
+[
+
+{
+"subject": "sub1",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub2",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub3",
+"time": "aa:bb - xx-yy"
+}
+],
+"mon": 
+
+[
+
+{
+"subject": "sub1",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub2",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub3",
+"time": "aa:bb - xx-yy"
+}
+],
+"tue": 
+
+[
+
+{
+"subject": "sub1",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub2",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub3",
+"time": "aa:bb - xx-yy"
+}
+],
+"wed": 
+
+[
+
+{
+"subject": "sub1",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub2",
+"time": "aa:bb - xx-yy"
+},
+
+{
+"subject": "sub3",
+"time": "aa:bb - xx-yy"
+}
+]
+  };
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
 app.listen(app.get('port'), function(){
   console.log('app running');
 })
