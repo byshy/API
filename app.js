@@ -394,7 +394,7 @@ app.get('/ads', function(req, res){
 })
 
 app.get('/management', function(req, res){
-  const data = {};
+  const data = {"sth":"something"};
   res.setHeader("Access-Control-Allow-Origin", "*")
   res.send(data);
 })
@@ -597,103 +597,78 @@ app.get('/exams', function(req, res){
 })
 
 app.get('/financial_record', function(req, res){
-  const data = {};
+  const data = {"rec":"record"};
   res.setHeader("Access-Control-Allow-Origin", "*")
   res.send(data);
 })
 
 app.get('/schedual', function(req, res){
   const data = {
-  "sat": 
-
-[
-
+  "sat": [
 {
 "subject": "sub1",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub2",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub3",
 "time": "aa:bb - xx-yy"
 }
 ],
-"sun": 
-
-[
-
+"sun": [
 {
 "subject": "sub1",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub2",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub3",
 "time": "aa:bb - xx-yy"
 }
 ],
-"mon": 
-
-[
-
+"mon": [
 {
 "subject": "sub1",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub2",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub3",
 "time": "aa:bb - xx-yy"
 }
 ],
-"tue": 
-
-[
-
+"tue": [
 {
 "subject": "sub1",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub2",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub3",
 "time": "aa:bb - xx-yy"
 }
 ],
-"wed": 
-
-[
-
+"wed": [
 {
 "subject": "sub1",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub2",
 "time": "aa:bb - xx-yy"
 },
-
 {
 "subject": "sub3",
 "time": "aa:bb - xx-yy"
