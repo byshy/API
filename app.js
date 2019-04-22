@@ -331,6 +331,41 @@ app.get('/agenda', function(req, res){
   res.send(data);
 })
 
+app.get('/academical_data', function(req, res){
+  const data ={
+      "college": "Engineering",
+      "gpa": 80.2,
+      "specialty": "Comp. Sci.",
+      "lvl": 3,
+      "plan_no": 4,
+      "success_hrs": 89,
+      "study_hrs": 89,
+      "remaining_hrs": 58,
+      "balance": 200.5
+    };
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
+app.get('/installments', function(req, res){
+  const data =[
+    {
+      "due_date": "xx-xx-xxxx",
+      "amount": 100,
+      "payed": 90,
+      "remaining": "xx"
+    },
+    {
+      "due_date": "yy-yy-yyyy",
+      "amount": 80,
+      "payed": 40,
+      "remaining": "yy"
+    }
+    ];
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
+
 app.listen(app.get('port'), function(){
   console.log('app running');
 })
