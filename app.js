@@ -327,7 +327,9 @@ app.get('/agenda', function(req, res){
       "exame": "xx-xx-xxxx",
       "drope": "xx-xx-xxxx"
     };
-}
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.send(data);
+})
 
 app.listen(app.get('port'), function(){
   console.log('app running');
