@@ -315,6 +315,19 @@ app.get('/', function(req, res){
   res.send(data);
 })
 
+app.get('/agenda', function(req, res){
+  const data ={
+      "regs": "xx-xx-xxxx",
+      "rege": "xx-xx-xxxx",
+      "studs": "xx-xx-xxxx",
+      "stude": "xx-xx-xxxx",
+      "adds": "xx-xx-xxxx",
+      "adde": "xx-xx-xxxx",
+      "exams": "xx-xx-xxxx",
+      "exame": "xx-xx-xxxx",
+      "drope": "xx-xx-xxxx"
+    };
+}
 
 app.listen(app.get('port'), function(){
   console.log('app running');
