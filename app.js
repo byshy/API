@@ -423,7 +423,7 @@ app.get('/marks', function(req, res){
 {
   "year": "2016/2017",
   "semister": 1,
-  "gpa": 50.0,
+  "gpa": 50.2,
   "cgpa": 50.0,
   "subjects": [
     {
@@ -487,8 +487,8 @@ app.get('/marks', function(req, res){
 {
   "year": "2016/2017",
   "semister": 2,
-  "gpa": 50.0,
-  "cgpa": 50.0,
+  "gpa": 50.31,
+  "cgpa": 50.09,
   "subjects": [
     {
       "name": "sub1",
