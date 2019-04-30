@@ -204,34 +204,34 @@ app.get('/', function(req, res){
       "mid": [
         {
           "subject": "sub1",
-          "date:": "xx-yy-zzzz",
+          "date": "xx-yy-zzzz",
           "time": "aa:bb - xx-yy"
         },
         {
           "subject": "sub2",
-          "date:": "xx-yy-zzzz",
+          "date": "xx-yy-zzzz",
           "time": "aa:bb - xx-yy"
         },
         {
           "subject": "sub3",
-          "date:": "xx-yy-zzzz",
+          "date": "xx-yy-zzzz",
           "time": "aa:bb - xx-yy"
         }
       ],
       "final": [
         {
           "subject": "sub1",
-          "date:": "xx-yy-zzzz",
+          "date": "xx-yy-zzzz",
           "time": "aa:bb - xx-yy"
         },
         {
           "subject": "sub2",
-          "date:": "xx-yy-zzzz",
+          "date": "xx-yy-zzzz",
           "time": "aa:bb - xx-yy"
         },
         {
           "subject": "sub3",
-          "date:": "xx-yy-zzzz",
+          "date": "xx-yy-zzzz",
           "time": "aa:bb - xx-yy"
         }
       ]
