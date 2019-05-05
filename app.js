@@ -376,7 +376,7 @@ app.get('/ads', function(req, res){
 
 {
 "address": "ad2",
-"dest": "dest2dest2"
+"dest": "dest2"
 },
 
 {
